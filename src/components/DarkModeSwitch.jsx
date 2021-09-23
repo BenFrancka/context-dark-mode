@@ -6,11 +6,13 @@ const darkModeSwitch = () => {
   const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
 
   return (
-    <button onClick={toggleDarkMode}>
-      click for {darkMode ? 'light' : 'dark'}
-    </button>
+    <main>
+      <button onClick={toggleDarkMode}>
+        click for {darkMode ? 'light' : 'dark'}
+      </button>
+      
+    </main>
   );
 };
 
 export default darkModeSwitch;
-
