@@ -1,5 +1,7 @@
 import React from 'react';
+import DarkModeSwitch from '../DarkModeSwitch';
+
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <DarkModeSwitch />;
 }
