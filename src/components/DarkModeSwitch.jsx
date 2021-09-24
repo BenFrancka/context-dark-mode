@@ -5,9 +5,11 @@ const darkModeSwitch = () => {
   const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
 
   return (
-    <button aria-label= "toggle-theme" onClick={toggleDarkMode}>
-      click for {darkMode ? 'light' : 'dark'}
-    </button>
+    <header>
+      <button aria-label="toggle-theme" onClick={toggleDarkMode}>
+        click for {darkMode ? 'light' : 'dark'}
+      </button>
+    </header>
   );
 };
 
