@@ -1,5 +1,12 @@
 import React from 'react';
+import DarkModeSwitch from '../DarkModeSwitch';
+import List from '../List';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <main id= "main" role="main" aria-label="page">
+      <DarkModeSwitch />
+      <List />
+    </main>
+  );
 }
